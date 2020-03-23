@@ -11,6 +11,6 @@ public King(Board board, Color color) {
 	}
 	@Override
 	public String toString() {
-		return "K";
+	return "K";
 	}
 }
