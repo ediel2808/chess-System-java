@@ -35,9 +35,9 @@ public class ChessMatch {
 	
 	private Piece makeMove(Position source, Position target) {
 		Piece p = board.removePiece(source);
-		Piece captuPiece = board.removePiece(target);
+		Piece capturedPiece = board.removePiece(target);
 		board.PlacePiece(p, target);
-		return captuPiece;
+		return capturedPiece;
 		
 	}
 	
